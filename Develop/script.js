@@ -14,8 +14,6 @@ function writePassword() {
   var passwordCase = window.prompt ("Please choose the password case of upper or lower characters.");
   var passwordSpecialchar = window.prompt ("Please choose what special characters to include in your password.");
   // action for password length selection // 
-  if (passwordLength === 8 )
-
 
   passwordText.value = password;
 }
